@@ -211,7 +211,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-transparent overflow-x-hidden text-on-surface relative">
       <Toaster position="top-right" toastOptions={{ className: 'glass-panel text-white' }} />
-      <TopAppBar connected={connected} onProfileClick={() => setIsProfileOpen(true)} />
+      <TopAppBar connected={connected} />
 
       <main className="flex flex-col items-center pt-28 px-8 w-full min-h-screen z-10 relative">
         {/* Outer Floating Glass Window */}
